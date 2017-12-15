@@ -1,0 +1,159 @@
+@font-face {
+    font-family: iransans;
+    src:url('/var/www/html/contact/fonts/eot/IRANSansWeb.eot') format('eot'),
+      url('/var/www/html/contact/fonts/eot/IRANSansWeb_Bold.eot') format('eot'),
+      url('/var/www/html/contact/fonts/ttf/IRANSansWeb.ttf') format('truetype'),
+      url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype'),
+      url('/var/www/html/contact/fonts/woff/IRANSansWeb.woff') format('woff'),
+      /*url('/var/www/html/contact/fonts/woff/IRANSansWeb_Bold.woff') format('woff'),*/
+      url('/var/www/html/contact/fonts/woff2/IRANSansWeb.woff2') format('woff2');
+      /*url('/var/www/html/contact/fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2');*/
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body {
+    height: 80%;
+    text-align: center;
+    font-family: 'iransans';
+    font-size: 12px;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:none;
+    background-position: initial;
+        
+}
+.container {
+    min-height: 120%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -147px;
+}
+.header {
+    padding: 10px;
+    padding-top: 150px;
+}
+.main_title {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.content {
+    padding: 10px;
+    min-height: 100px;
+    padding-left: 60px;
+}
+.footer, .push {
+    height: 42px; /* .push must be the same height as .footer */
+    color: #91dff5;
+padding-top: 130px;
+text-align: left;
+margin-left: 40px;
+}
+.footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.label_div {
+    width: 120px;
+    float: left;
+    line-height: 28px;
+}
+.input_container {
+    height: 30px;
+    float: left;
+}
+.input_container input {
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+}
+.input_container ul {
+    width: 206px;
+    border: 1px solid #eaeaea;
+    position: absolute;
+    z-index: 9;
+    background: #f3f3f3;
+        
+        
+    list-style: none;
+}
+.input_container ul li {
+    padding: 2px;
+}
+.input_container ul li:hover {
+    background: #eaeaea;
+}
+#country_list_id {
+    display: none;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: ' >';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.content i{
+    position: relative;
+    top: 30px;
+    right: 205px;
+    color:#91dff5;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 12px;
+}
+
+.collapse{
+    position: relative;
+    bottom: 92px;
+    right: 140px;
+    font-size: 11px;
+}
