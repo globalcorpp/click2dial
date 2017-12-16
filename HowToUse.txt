@@ -11,7 +11,7 @@ second- change USERNAME and PASSWORD in db/db.php to values when install issabel
 
 third- copy all of project folder to "/var/www/html" 
 
-fourth- go to issabel panel and create a extension (for show name of user(extension) fill <alias> filed) then submit and apply
+fourth- go to issabel panel and create a extension (for show name of user(extension) fill <SIP Alias> filed) then submit and apply
 		note: support UTF-8 for peraian language
 		
 fifth- in your browser type https://YOUR PBX IP/click2dial
