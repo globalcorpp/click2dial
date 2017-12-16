@@ -1,4 +1,3 @@
-
 confing this parameters to enjoy this panel
 
 First- create manager user in issabel 
@@ -9,12 +8,14 @@ First- create manager user in issabel
 		
 second- change USERNAME and PASSWORD in db/db.php to values when install issabel ippbx
 
-third- copy all of project folder to "/var/www/html" 
+third- change ip and extension of users in this file ipPrivilege.php -
 
-fourth- go to issabel panel and create a extension (for show name of user(extension) fill <SIP Alias> filed) then submit and apply
+fourth- copy all of project folder to "/var/www/html" 
+
+fifth- go to issabel panel and create a extension (for show name of user(extension) fill <SIP Alias> filed) then submit and apply
 		note: support UTF-8 for peraian language
 		
-fifth- in your browser type https://YOUR PBX IP/click2dial
+sixth- in your browser type https://YOUR PBX IP/click2dial
 
 
 finish
