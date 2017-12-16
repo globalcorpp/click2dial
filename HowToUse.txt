@@ -1,1 +1,21 @@
 
+confing this parameters to enjoy this panel
+
+First- create manager user in issabel 
+		you can do this by active freepbx panel in your ippbx
+		and go to "setting/asterisk manager user" and create a new user with sufficient access
+		go to root folder of project "db/manager.php" then change USERMANAGER and PASSWORDMANAGER  
+
+		
+second- change USERNAME and PASSWORD in db/db.php to values when install issabel ippbx
+
+third- copy all of project folder to "/var/www/html" 
+
+fourth- go to issabel panel and create a extension (for show name of user(extension) fill <alias> filed) then submit and apply
+		note: support UTF-8 for peraian language
+		
+fifth- in your browser type https://YOUR PBX IP/click2dial
+
+
+finish
+enjoy it
