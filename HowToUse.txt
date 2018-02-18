@@ -18,5 +18,10 @@ fifth- go to issabel panel and create a extension (for show name of user(extensi
 sixth- in your browser type https://YOUR PBX IP/click2dial
 
 
+seventh- edit index.php
+$getURL = $_SERVER['REQUEST_URI'];
+if ($getURL == "/") {
+    header("Location: https://xxxxx/contact/");
+
 finish
 enjoy it
